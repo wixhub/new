@@ -1,0 +1,60 @@
+{
+  "hash": "d64f1a86",
+  "configHash": "773f74dd",
+  "lockfileHash": "45e84f8b",
+  "browserHash": "4043507f",
+  "optimized": {
+    "@angular/common": {
+      "src": "../../../../../../node_modules/@angular/common/fesm2022/common.mjs",
+      "file": "@angular_common.js",
+      "fileHash": "8df17ce1",
+      "needsInterop": false
+    },
+    "@angular/core": {
+      "src": "../../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "8166a77c",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "b3698ce7",
+      "needsInterop": false
+    },
+    "@angular/router": {
+      "src": "../../../../../../node_modules/@angular/router/fesm2022/router.mjs",
+      "file": "@angular_router.js",
+      "fileHash": "67107833",
+      "needsInterop": false
+    },
+    "@swimlane/ngx-charts": {
+      "src": "../../../../../../node_modules/@swimlane/ngx-charts/fesm2022/swimlane-ngx-charts.mjs",
+      "file": "@swimlane_ngx-charts.js",
+      "fileHash": "1fa72578",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "common-CEOghQqZ": {
+      "file": "common-CEOghQqZ.js",
+      "isDynamicEntry": false
+    },
+    "core-5Za2pPvL": {
+      "file": "core-5Za2pPvL.js",
+      "isDynamicEntry": false
+    },
+    "mapOneOrManyArgs-BF4hGzav": {
+      "file": "mapOneOrManyArgs-BF4hGzav.js",
+      "isDynamicEntry": false
+    },
+    "mergeMap-bEykEYnV": {
+      "file": "mergeMap-bEykEYnV.js",
+      "isDynamicEntry": false
+    },
+    "platform-browser-BuLy-bnq": {
+      "file": "platform-browser-BuLy-bnq.js",
+      "isDynamicEntry": false
+    }
+  }
+}

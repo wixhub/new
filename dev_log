@@ -15,6 +15,7 @@ ng s -o
 npm install @angular/animations@^22.0.0 --save
 // add charts
 npm install @swimlane/ngx-charts --save --legacy-peer-deps
+npm install --legacy-peer-deps
 
 [https://angular.dev/cli/generate/class]
 
