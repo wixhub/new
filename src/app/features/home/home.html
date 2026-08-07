@@ -1,0 +1,59 @@
+<div class="cosmic-container">
+  <div class="migration-lines">
+    <svg viewBox="0 0 1440 900" preserveAspectRatio="none">
+      <path d="M-100,200 C400,50 800,600 1540,100" />
+      <path d="M-100,500 C500,700 900,200 1540,600" />
+    </svg>
+  </div>
+
+  <header class="hero-section">
+    <div class="badge-orbit">Research Data Management Labs</div>
+    <h1>Open Science & <span class="highlight-gold">Ecosystem Hub</span></h1>
+    <p class="subtitle">
+      A centralized directory of independent research portals and interactive telemetry prototypes
+    </p>
+  </header>
+
+  <section class="showcase-section">
+    <h2 class="section-title">Deployed Research Portals</h2>
+
+    <div class="grid">
+      @for (project of projects(); track project.id) {
+        <article class="cosmic-card" [routerLink]="['/project', project.id]">
+          <div class="card-top-row">
+            <span class="card-header-tag">{{ project.badge }}</span>
+            <!-- Unique cosmic symbol instead of Live badge -->
+            <span class="card-symbol">{{ project.symbol }}</span>
+          </div>
+
+          <h3>{{ project.title }}</h3>
+          <p class="project-subtitle">{{ project.subtitle }}</p>
+          <p class="description">{{ project.description }}</p>
+
+          <div class="tech-stack">
+            @for (tech of project.techStack; track tech) {
+              <span>{{ tech }}</span>
+            }
+          </div>
+
+          <div class="card-footer-actions">
+            <!-- Live Demo button styled as primary cosmic button -->
+            @if (project.liveUrl !== '#') {
+              <a
+                [href]="project.liveUrl"
+                (click)="$event.stopPropagation()"
+                target="_blank"
+                class="cosmic-btn primary sm"
+                >Live Demo ↗</a
+              >
+            } @else {
+              <span class="cosmic-btn secondary sm disabled">Coming Soon</span>
+            }
+
+            <a [routerLink]="['/project', project.id]" class="details-link">Details →</a>
+          </div>
+        </article>
+      }
+    </div>
+  </section>
+</div>
