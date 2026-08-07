@@ -1,0 +1,74 @@
+[
+  {
+    "id": "moverdm-explorer",
+    "title": "MoveRDM Dataset Explorer",
+    "subtitle": "University of Konstanz / Max Planck Institute",
+    "description": "High-performance scientific repository frontend featuring dual-mode synchronization: static local mock schemas and real-time live connection to public Movebank API endpoints.",
+    "techStack": ["Angular", "TypeScript", "Signals", "Movebank API", "SCSS"],
+    "liveUrl": "https://moverdm-portal.pages.dev",
+    "githubUrl": "https://github.com/wixhub/moverdm-portal",
+    "status": "Live",
+    "badge": "Target Initiative",
+    "symbol": "🦩"
+  },
+  {
+    "id": "spatial-temporal-playback",
+    "title": "Spatial-Temporal Migration Playback",
+    "subtitle": "Movebank Data Repository / Animal Tracking",
+    "description": "High-performance scientific web application for interactive playback and visualization of animal migration telemetry over geographical map layers.",
+    "techStack": ["Angular 22", "TypeScript", "Leaflet.js", "Signals", "Movebank API", "SCSS"],
+    "liveUrl": "https://spatial-playback.pages.dev",
+    "githubUrl": "https://github.com/wixhub/spatial-temporal-playback",
+    "status": "Live",
+    "badge": "Core Telemetry",
+    "symbol": "☊"
+  },
+  {
+    "id": "sensor-streams-dashboard",
+    "title": "Multi-Dimensional Sensor Streams Dashboard",
+    "subtitle": "Experimental Data & Signal Processing",
+    "description": "Modern scientific dashboard component designed to visualize multi-dimensional sensor streams, combining GPS tracking with accelerometer and environmental data.",
+    "techStack": ["Angular 22", "Chart.js", "TypeScript", "Reactive Forms", "SCSS"],
+    "liveUrl": "https://sensor-dashboard.pages.dev",
+    "githubUrl": "https://github.com/wixhub/sensor-streams-dashboard",
+    "status": "Live",
+    "badge": "Analytics Hub",
+    "symbol": "∰"
+  },
+  {
+    "id": "data-curation-tool",
+    "title": "Data Curation & Quality Control Tool",
+    "subtitle": "Ecological Metadata Management & QC",
+    "description": "Interactive web utility for researchers working with animal tracking data, featuring automated client-side anomaly detection and data cleaning capabilities.",
+    "techStack": ["Angular 22", "TypeScript", "Signals", "Data Grids", "SCSS"],
+    "liveUrl": "#",
+    "githubUrl": "https://github.com/wixhub/data-curation-tool",
+    "status": "In Development",
+    "badge": "Data Pipeline",
+    "symbol": "🐘"
+  },
+  {
+    "id": "bio-telemetry-map",
+    "title": "Bio-Telemetry Spatial Visualizer",
+    "subtitle": "Advanced Migration Mapping",
+    "description": "Next-generation spatial rendering engine for migratory animal tracking data, engineered for ecological metadata management.",
+    "techStack": ["Leaflet GIS", "RxJS", "Open Science"],
+    "liveUrl": "#",
+    "githubUrl": "https://github.com/wixhub/bio-telemetry-visualizer",
+    "status": "In Development",
+    "badge": "Upcoming Orbit",
+    "symbol": "🦅"
+  },
+  {
+    "id": "metadata-harvester",
+    "title": "Ecological Metadata Harvester",
+    "subtitle": "Automated Ingestion & API Gateway",
+    "description": "Backend-agnostic ingestion pipeline utility designed to parse, validate, and standardize Darwin Core and Movebank XML metadata payloads.",
+    "techStack": ["Angular 22", "RxJS", "JSON Schema", "REST API"],
+    "liveUrl": "#",
+    "githubUrl": "https://github.com/wixhub/metadata-harvester",
+    "status": "In Development",
+    "badge": "Integration Hub",
+    "symbol": "🦈"
+  }
+]
