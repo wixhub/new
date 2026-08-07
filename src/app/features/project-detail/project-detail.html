@@ -1,0 +1,55 @@
+<div class="cosmic-container detail-page">
+  <div class="migration-lines">
+    <svg viewBox="0 0 1440 900" preserveAspectRatio="none">
+      <path d="M-100,200 C400,50 800,600 1540,100" />
+    </svg>
+  </div>
+
+  <div class="content-wrapper">
+    <a routerLink="/" class="back-link">← Back to Hub Catalog</a>
+
+    @if (isLoading()) {
+      <p class="loading">Loading project telemetry...</p>
+    } @else if (project(); as p) {
+      <div class="detail-card">
+        <span class="badge">{{ p.badge }}</span>
+        <h1>{{ p.title }}</h1>
+        <p class="subtitle">{{ p.subtitle }}</p>
+
+        <div class="tech-stack">
+          @for (tech of p.techStack; track tech) {
+            <span>{{ tech }}</span>
+          }
+        </div>
+
+        <section class="section-block">
+          <h3>Overview & Objective</h3>
+          <p>{{ p.description }}</p>
+        </section>
+
+        @if (p.longDescription) {
+          <section class="section-block">
+            <h3>Technical Implementation & Architecture</h3>
+            <p>{{ p.longDescription }}</p>
+          </section>
+        }
+
+        <div class="actions">
+          @if (p.liveUrl !== '#') {
+            <a [href]="p.liveUrl" target="_blank" class="cosmic-btn primary"
+              >Launch Live Portal ↗</a
+            >
+          }
+          <a [href]="p.githubUrl" target="_blank" class="cosmic-btn secondary"
+            >GitHub Repository ↗</a
+          >
+        </div>
+      </div>
+    } @else {
+      <div class="not-found">
+        <h2>Project not found in orbit.</h2>
+        <a routerLink="/" class="cosmic-btn primary">Return Home</a>
+      </div>
+    }
+  </div>
+</div>
