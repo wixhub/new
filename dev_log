@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ng new angular-ngx-charts --directory ./
+ng new rdm-labs --directory ./
 
 Which stylesheet format would you like to use?
 Sass (SCSS) [ https://sass-lang.com/documentation/syntax#scss ]
@@ -12,12 +12,13 @@ Agents.md [ https://agents.md/ ]
 
 ng s -o
 
-npm install @angular/animations@^22.0.0 --save
-// add charts
-npm install @swimlane/ngx-charts --save --legacy-peer-deps
-npm install --legacy-peer-deps
+touch public/data/projects.json
 
-[https://angular.dev/cli/generate/class]
+# Generate a new component [https://angular.dev/cli/generate/class]
 
-ng generate c features/charts
+ng generate c features/home
+ng generate c features/project-detail
 ng generate c features/powered
+
+ng generate i core/models/project.model
+ng generate s core/services/project.service

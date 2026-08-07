@@ -1,12 +1,12 @@
 [
   {
-    "id": "moverdm-explorer",
+    "id": "movebank-explorer-web",
     "title": "MoveRDM Dataset Explorer",
     "subtitle": "University of Konstanz / Max Planck Institute",
     "description": "High-performance scientific repository frontend featuring dual-mode synchronization: static local mock schemas and real-time live connection to public Movebank API endpoints.",
-    "techStack": ["Angular", "TypeScript", "Signals", "Movebank API", "SCSS"],
-    "liveUrl": "https://moverdm-portal.pages.dev",
-    "githubUrl": "https://github.com/wixhub/moverdm-portal",
+    "techStack": ["Movebank API", "Angular", "TypeScript", "Signals", "SCSS"],
+    "liveUrl": "https://movebank-explorer.pages.dev",
+    "githubUrl": "https://github.com/wixhub/movebank-explorer-web",
     "status": "Live",
     "badge": "Target Initiative",
     "symbol": "🦩"
@@ -16,10 +16,9 @@
     "title": "Spatial-Temporal Migration Playback",
     "subtitle": "Movebank Data Repository / Animal Tracking",
     "description": "High-performance scientific web application for interactive playback and visualization of animal migration telemetry over geographical map layers.",
-    "techStack": ["Angular 22", "TypeScript", "Leaflet.js", "Signals", "Movebank API", "SCSS"],
-    "liveUrl": "https://spatial-playback.pages.dev",
+    "techStack": ["Movebank API", "Angular 22", "TypeScript", "Leaflet.js", "Signals", "SCSS"],
+    "liveUrl": "#",
     "githubUrl": "https://github.com/wixhub/spatial-temporal-playback",
-    "status": "Live",
     "badge": "Core Telemetry",
     "symbol": "☊"
   },
@@ -29,9 +28,8 @@
     "subtitle": "Experimental Data & Signal Processing",
     "description": "Modern scientific dashboard component designed to visualize multi-dimensional sensor streams, combining GPS tracking with accelerometer and environmental data.",
     "techStack": ["Angular 22", "Chart.js", "TypeScript", "Reactive Forms", "SCSS"],
-    "liveUrl": "https://sensor-dashboard.pages.dev",
+    "liveUrl": "#",
     "githubUrl": "https://github.com/wixhub/sensor-streams-dashboard",
-    "status": "Live",
     "badge": "Analytics Hub",
     "symbol": "∰"
   },
